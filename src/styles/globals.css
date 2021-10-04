@@ -1,0 +1,31 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary90: #168D46;
+  --primary100: #08612D;
+  --primary120: #0D3F21;
+}
+
+/* body {
+  background-image: url("https://geek360.com.br/wp-content/uploads/2017/02/Notebook-para-trabalho.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */

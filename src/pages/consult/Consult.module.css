@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background: wite;
+    padding: 0 136px;
+    align-items: center;
+    justify-content: center;
+}
+
+.title > h1 {
+    font-weight: normal;
+}
+
+.position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--primary90);
+    width: 100%;
+    padding: 40px;
+}
+
+.positionTitle > h1 {
+    font-weight: normal;
+}
+
+.positionForm {
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px;
+}
+
+.positionForm > button {
+    width: 90px;    
+}
+
+.positionIndices {
+    width: 100%;
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+}
+
+.positionIndice {
+    width: 170px;
+    margin: 30px 10px;
+}
+
+.positionGraph {
+    display: flex;
+    flex-direction: row;
+}
+
+.positionGraph > div {
+    margin: 10px;
+}

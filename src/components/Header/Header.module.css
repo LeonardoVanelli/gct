@@ -1,0 +1,36 @@
+.container {
+  flex:1;
+  flex-direction: row;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    height: 80px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--primary100);
+  }
+
+  .item {
+    margin-left: 36px;
+    color: white;
+    padding: 8px 5px 8px 5px;
+    font-size: 0.83em;
+    cursor: pointer;
+  }
+
+  .logo {
+    height: 80px;
+    cursor: pointer;
+  }
+
+  .buttons {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+  }
