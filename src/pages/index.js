@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/Image'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Carousel01 from '../../public/images/carousel01.png'
 import Carousel02 from '../../public/images/carousel02.png'
